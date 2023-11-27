@@ -8,7 +8,7 @@ export default function Footer() {
       </small>
       <p className=" flex flex-col text-xs ">
         <span className="mb-2">
-          Designed & Built by {" "}
+          Designed & Built by{" "}
           <a
             className="underline font-semibold dark:text-[#64ffda]"
             href="https://web.facebook.com/profile.php?id=100004541353201
@@ -17,7 +17,6 @@ export default function Footer() {
             Angaz Team
           </a>{" "}
         </span>
-       
       </p>
     </footer>
   );

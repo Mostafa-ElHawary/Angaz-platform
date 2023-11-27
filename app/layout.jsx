@@ -1,7 +1,7 @@
-import Header from "@/components/header";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { Toaster } from "react-hot-toast";
+import Header from "@/components/header";
 import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="!scroll-smooth relative  ">
       <body
-        className={`${inter.className} pl-5 pr-5   bg-gray-50 text-gray-950  relative pt-28 sm:pt-36 dark:bg-[#0a192f] dark:text-gray-50 dark:text-opacity-90 `}
+        className={`${inter.className} pl-5 pr-5   bg-gray-50 text-gray-950  relative  dark:bg-[#0a192f] dark:text-gray-50 dark:text-opacity-90 `}
       >
         <Header />
         {children}

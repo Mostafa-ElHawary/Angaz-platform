@@ -5,26 +5,22 @@
 html {
   --line-color: #e5e7eb;
 }
-.borderBlack {
-  @apply border border-[#64ffda];
+.selectedMain {
+  @apply border border-[#000806];
+}
+
+.selectedRed {
+  @apply border border-[#fa1e1e];
+}
+
+.selectedGreen {
+  @apply border border-[#58ff21];
+}
+
+.selectedBlue {
+  @apply border border-[#1c35f8];
 }
 html.dark {
   --line-color: rgba(255, 255, 255, 0.2);
 }
 
-.borderGray {
-  @apply border border-[#ccd6f6];
-}
-.textResizeP1 {
-  @apply text-2xl  sm:text-3xl md:text-4xl;
-}
-.textResizeP2 {
-  @apply text-xl  sm:text-3xl md:text-4xl;
-}
-
-.elementCenter {
-  @apply flex flex-col justify-start items-center;
-}
-.inputResize {
-  @apply text-sm sm:text-3xl md:text-4xl lg:text-4xl;
-}
