@@ -9,6 +9,14 @@ html {
   @apply border border-[#000806];
 }
 
+.gray-500
+{
+  @apply text-gray-500
+}
+.gray-800
+{
+  @apply text-gray-600
+}
 .selectedRed {
   @apply border border-[#fa1e1e];
 }
