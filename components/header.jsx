@@ -8,14 +8,14 @@ import { AiOutlineGlobal } from "react-icons/ai";
 
 export default function Header() {
   return (
-    <header className={` z-[999] relative`}>
+    <header className={` z-[999] relative pr-20 pl-20`}>
       <motion.div
         className=" "
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
 
-      <div className="  p-1 headwrapper grid grid-cols-2 lg:grid-cols-6 lg:col-span-1">
+      <div className="=p-1 headwrapper grid grid-cols-2 lg:grid-cols-6 lg:col-span-1 ">
         <div className="flex log-Srch  p-4 justify-center items-center lg:col-span-1">
           {/* we need add logo and editing his size */}
           <img className="w-8 h-8" src="" alt="" />
@@ -37,7 +37,7 @@ export default function Header() {
               >
                 <Link
                   href={link.hash}
-                  className=" flex flex-col justify-center items-center p-4 pl-2 pr-2 gray-800 "
+                  className=" flex flex-col justify-center items-center p-4 pl-2 pr-2 gray-800 text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer"
                 >
                   {/* we need to edit icon size & font size */}
                   {link.icon}
