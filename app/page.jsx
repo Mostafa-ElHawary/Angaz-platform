@@ -4,7 +4,7 @@ import Works from "@/components/MainPage/Works"
 import WhyAngaz from "@/components/MainPage/WhyAngaz"
 import PopularSearch from "@/components/MainPage/PopularSearch"
 import Bestfreelancers from "@/components/MainPage/Bestfreelancers"
-import Commonquestions from "@/components/MainPage/Commonquestions"
+import Commonquestions from "@/components/MainPage/Commonquestions/Commonquestions"
 export default function Home() {
   return (
     <main className="px-4">
