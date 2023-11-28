@@ -27,6 +27,7 @@ export const links = [
     icon: React.createElement(AiOutlineTrophy),
   },
 ] as const;
+
 export const q = [
   {
     id: 1,
@@ -34,120 +35,132 @@ export const q = [
     duties: [
       {
         id: 1,
-        title: "Do I have to allow the use of cookies?",
+        title: "What is Anjaz platform?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 2,
-        title: "Do I have to allow the use of cookies?",
+        title: "How can people with skills benefit from Anjaz?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 3,
-        title: "Do I have to allow the use of cookies?",
+        title: "How do I ensure that my rights as a buyer are fulfilled?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 4,
-        title: "Do I have to allow the use of cookies?",
+        title:
+          "How do I guarantee the fulfillment of my rights as an independent?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 5,
-        title: "Do I have to allow the use of cookies?",
+        title: "What are the levels of (independent) sellers in Anjaz?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
     ],
   },
+
   {
     id: 2,
-    topic: "General",
+    topic: "Services",
     duties: [
       {
         id: 1,
-        title: "Do I have to allow the use of cookies?",
+        title: "How can I purchase services from Anjaz?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 2,
-        title: "Do I have to allow the use of cookies?",
+        title:
+          "What percentage does Anjaz deduct from me when I purchase a mini-service?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 3,
-        title: "Do I have to allow the use of cookies?",
+        title:
+          "How much does Anjaz get if you, as a freelancer, create a microservice?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 4,
-        title: "Do I have to allow the use of cookies?",
+        title:
+          "What is the percentage of Anjaz that you get if you, as a freelancer, sell a mini-service?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 5,
-        title: "Do I have to allow the use of cookies?",
+        title: "How many microservices can I provide?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
     ],
   },
+
   {
     id: 3,
-    topic: "General",
+    topic: "Projects",
     duties: [
       {
         id: 1,
-        title: "Do I have to allow the use of cookies?",
+        title: "How can I benefit from the projects section?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 2,
-        title: "Do I have to allow the use of cookies?",
+        title: "What happens after I publish my project?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 3,
-        title: "Do I have to allow the use of cookies?",
+        title:
+          "What percentage does Anjaz deduct from me when I submit a project?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 4,
-        title: "Do I have to allow the use of cookies?",
+        title:
+          "What percentage does a sponsor get if I, as a freelancer, complete a project?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 5,
-        title: "Do I have to allow the use of cookies?",
+        title:
+          "Can I, as a freelancer, amend the proposal I submitted for a project?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
     ],
   },
+
   {
     id: 4,
-    topic: "General",
+    topic: "Contests",
     duties: [
       {
         id: 1,
-        title: "Do I have to allow the use of cookies?",
+        title:
+          "What does the competitions section offer me as an entrepreneur?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 2,
-        title: "Do I have to allow the use of cookies?",
+        title: "What happens after I post my contest?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 3,
-        title: "Do I have to allow the use of cookies?",
+        title:
+          "What percentage does Injaz deduct from me when I submit a competition?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 4,
-        title: "Do I have to allow the use of cookies?",
+        title: "What percentage do you get if you win a competition?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
       {
         id: 5,
-        title: "Do I have to allow the use of cookies?",
+        title: "How many works can I participate in one competition?",
         info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
       },
     ],
