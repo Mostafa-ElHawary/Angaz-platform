@@ -9,7 +9,8 @@ export default function Commonquestions() {
   return (
     <main className='min-h-screen flex items-center justify-center'>
       <div className="container md:grid md:grid-cols-250 md:grid-flow-col w-90vw mx-auto bg-white rounded-md p-10 max-w-fixed grid gap-4 md:gap-8">
-        <h3 className='leading-5 font-normal'>Frequently Asked Questions</h3>
+        <h3 className='leading-10 font-bold'>Frequently Asked Questions</h3>
+        
         <section className="info">
           {question.map((question) => {
             return <SingleQuestion key={question.id} {...question} />;
