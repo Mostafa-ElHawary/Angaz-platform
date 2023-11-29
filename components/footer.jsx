@@ -13,7 +13,7 @@ import EgyptianPost from "@/public/svgImg/egyptian-post.webp";
 
 export default function Footer() {
   return (
-    <>
+    <footer>
       <div className="bg-gray-50 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20">
         <div className="p-5 ">
           <div className="col-12 col-sm-6 col-md-3">
@@ -203,6 +203,6 @@ export default function Footer() {
           </span>
         </h1>
       </div>
-    </>
+    </footer>
   );
 }

@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Bestfreelancers() {
   return (
-    <div>Bestfreelancers</div>
+    <section className=' relative scroll-mt-28 mb-28 sm:mb-4'>Bestfreelancers</section>
   )
 }

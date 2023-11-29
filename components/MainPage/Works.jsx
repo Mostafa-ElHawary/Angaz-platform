@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Works() {
   return (
-    <div>How Work's</div>
+    <section className='section'>How Work's</section>
   )
 }

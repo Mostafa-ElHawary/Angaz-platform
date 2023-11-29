@@ -11,7 +11,7 @@ export default function Commonquestions() {
 
   //  Note : this question in data need to a real question it;s just a fake write now
   return (
-    <main className="min-h-screen flex items-center justify-center">
+    <section className=" relative scroll-mt-28 mb-28 sm:mb-4 ">
       <div className="w-80vw  max-w-screen-l md:grid md:grid-cols-250 md:grid-flow-col w-90vw mx-auto bg-white rounded-md p-10 max-w-fixed grid gap-4 md:gap-8">
         <div className="btn-container grid grid-flow-col md:grid-flow-row justify-center mb-16 flex-wrap">
           {questions.map((q, indx) => {
@@ -34,6 +34,6 @@ export default function Commonquestions() {
           })}
         </section>
       </div>
-    </main>
+    </section>
   );
 }
