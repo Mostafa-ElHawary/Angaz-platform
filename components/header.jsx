@@ -37,7 +37,7 @@ export default function Header() {
               >
                 <Link
                   href={link.hash}
-                  className=" flex flex-col justify-center items-center p-4 pl-2 pr-2 gray-800 text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer"
+                  className=" flex flex-col justify-center items-center p-4 pl-2 pr-2 gray-800 text-gray-500 text-md pb-2 normal-case hover:text-blue-600 cursor-pointer"
                 >
                   {/* we need to edit icon size & font size */}
                   {link.icon}

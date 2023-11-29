@@ -4,6 +4,8 @@ import { AiOutlinePicture } from "react-icons/ai";
 import { AiOutlineTrophy } from "react-icons/ai";
 import { AiOutlineTeam } from "react-icons/ai";
 
+import { AiOutlineCode } from "react-icons/ai";
+
 export const links = [
   {
     name: "Services",
@@ -28,7 +30,7 @@ export const links = [
   },
 ] as const;
 
-export const q = [
+export const questions = [
   {
     id: 1,
     topic: "General",
@@ -167,35 +169,143 @@ export const q = [
   },
 ] as const;
 
-export const questions = [
+export const Departments = [
+  
   {
     id: 1,
-    topic: "",
-    title: "Do I have to allow the use of cookies?",
-    info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
+    topic: "Services",
+    duties: [
+      {
+        id: 1,
+        title: "Website programming",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+      {
+        id: 2,
+        title: "Graphic Design",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+      {
+        id: 3,
+        title: "Written and translated",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+      {
+        id: 4,
+        title: "Business",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+      {
+        id: 5,
+        title: "Audios",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+      {
+        id: 6,
+        title: "Digital Marketing",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+      {
+        id: 7,
+        title: "Video editing",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+      {
+        id: 8,
+        title: "animation",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+    ],
   },
+
   {
     id: 2,
-    topic: "",
-    title: "How do I change my My Page password?",
-    info: "Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.",
+    topic: "Projects",
+    duties: [
+      {
+        id: 1,
+        title: "Business, Consulting And Management Services",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+      {
+        id: 2,
+        title: "Programming, Web And Application Development",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+      {
+        id: 3,
+        title: "Design, Video And Audio",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+      {
+        id: 4,
+        title: "Marketing And Sales",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+      {
+        id: 5,
+        title: "Writing, Content Creation, Translation And Languages",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+      {
+        id: 6,
+        title: "Training, Education And Remote Assistance",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+      {
+        id: 6,
+        title: "Other Things",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+    ],
   },
+
   {
     id: 3,
-    topic: "",
-    title: "What is BankID?",
-    info: "Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.",
+    topic: "Challenges",
+    duties: [
+      {
+        id: 1,
+        title: "One",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+
+      {
+        id: 2,
+        title: "two",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+      {
+        id: 3,
+        title: "three",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+
+      {
+        id: 4,
+        title: "four",
+        icon: React.createElement(AiOutlineCode),
+        info: "",
+      },
+    ],
   },
-  {
-    id: 4,
-    topic: "",
-    title: "Whose birth number can I use?",
-    info: "Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.",
-  },
-  {
-    id: 5,
-    topic: "",
-    title: "When do I recieve a password ordered by letter?",
-    info: "Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ",
-  },
+
 ] as const;

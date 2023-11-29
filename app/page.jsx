@@ -2,7 +2,7 @@ import Image from "next/image";
 import Hero from "@/components/MainPage/Hero"
 import Works from "@/components/MainPage/Works"
 import WhyAngaz from "@/components/MainPage/WhyAngaz"
-import PopularSearch from "@/components/MainPage/PopularSearch"
+import PopularDeparts from "@/components/MainPage/PopularDeparts/PopularDeparts"
 import Bestfreelancers from "@/components/MainPage/Bestfreelancers"
 import Commonquestions from "@/components/MainPage/Commonquestions/Commonquestions"
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <Hero/>
       <Works/>
       <WhyAngaz/>
-      <PopularSearch/>
+      <PopularDeparts/>
       <Bestfreelancers/>
       <Commonquestions/>
     </main>

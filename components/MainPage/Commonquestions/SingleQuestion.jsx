@@ -4,7 +4,7 @@ import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 const SingleQuestion = ({ title, info }) => {
   const [showInfo, setShowInfo] = useState(false);
   return (
-    <article className="question p-4 border-2 border-gray-300 mb-4 rounded-md shadow-md">
+    <article className="bg-white p-4  mb-4 rounded-md shadow-md">
       <header className="flex justify-between items-center">
         <h4 className="mb-0 normal-case leading-6">{title}</h4>
         <button
