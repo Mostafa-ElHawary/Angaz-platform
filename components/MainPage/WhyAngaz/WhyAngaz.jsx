@@ -4,8 +4,8 @@ export default function WhyAngaz() {
   return (
     <section className="py-20">
       <div className="container mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-8">
-          <i className="fas fa-question-circle text-blue-500"></i> Why Angaz
+        <h2 className="text-4xl font-bold text-center text-blue-500 mb-12 ">
+          Why Angaz
         </h2>
         <p className="text-lg text-center mb-12">
           Angaz works to provide a professional and safe environment for dealing

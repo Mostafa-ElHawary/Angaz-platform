@@ -11,7 +11,9 @@ export default function PopularDeparts() {
   return (
     <section className="relative scroll-mt-28 mb-28 sm:mb-4 flex justify-center items-center">
       <div className="md:grid w-90vw mx-auto bg-white rounded-md p-10 max-w-fixed grid gap-4 md:gap-8">
-        <h4 className="">Departs</h4>
+        <h4 className="text-4xl font-bold text-center text-blue-500 mb-12">
+          Departs
+        </h4>
         <div className=" h-[5rem] grid grid-flow-col gap-4 items-center justify-center">
           {Departments.map((d, indx) => (
             <button

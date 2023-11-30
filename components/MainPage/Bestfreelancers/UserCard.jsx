@@ -6,7 +6,7 @@ export default function UserCard() {
           <div className="flex items-center mb-4">
             <div className="mr-4">
               <Image
-                src={``}
+                src={`https://avatars.hsoubcdn.com/default?s=128`}
                 alt=""
                 width={40}
                 height={40}
