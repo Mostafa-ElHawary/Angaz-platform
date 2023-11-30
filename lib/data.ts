@@ -309,3 +309,38 @@ export const Departments = [
   },
 
 ] as const;
+
+export const Testimonials = [
+  {
+    id: 1,
+    name: 'Fake User',
+    position: 'Title position',
+    comment:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?',
+    image: 'https://avatars.hsoubcdn.com/default?s=128',
+  },
+  {
+    id: 2,
+    name: 'Fake User',
+    position: 'Title position',
+    comment:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?',
+      image: 'https://avatars.hsoubcdn.com/default?s=128',
+  },
+  {
+    id: 3,
+    name: 'Fake User',
+    position: 'Title position',
+    comment:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?',
+      image: 'https://avatars.hsoubcdn.com/default?s=128',
+  },
+  {
+    id: 4,
+    name: 'Fake User',
+    position: 'Title position',
+    comment:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?',
+      image: 'https://avatars.hsoubcdn.com/default?s=128',
+  },
+]as const ;

@@ -1,5 +1,5 @@
 import React from "react";
-import UserCard from "./UserCard"
+import UserCard from "./UserCard";
 export default function Bestfreelancers() {
   return (
     <section className="relative mt-28 mb-28 sm:mb-4">
@@ -15,14 +15,12 @@ export default function Bestfreelancers() {
       </div>
       {/* As real data will be fetched from an API, for now, it's fake */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-        {/* Display multiple UserCard components */}
         <UserCard />
         <UserCard />
         <UserCard />
         <UserCard />
         <UserCard />
         <UserCard />
-        {/* Add more UserCard components as needed */}
       </div>
     </section>
   );
