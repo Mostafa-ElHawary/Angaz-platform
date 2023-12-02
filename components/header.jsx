@@ -8,7 +8,7 @@ import { AiOutlineGlobal } from "react-icons/ai";
 
 export default function Header() {
   return (
-    <header className={` z-[999] relative pr-20 pl-20`}>
+    <header className={` z-[999] relative px-20`}>
       <motion.div
         className=" "
         initial={{ y: -100, x: "-50%", opacity: 0 }}

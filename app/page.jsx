@@ -8,7 +8,7 @@ import ClintComment from "@/components/MainPage/ClintComment/ClintComment";
 import Commonquestions from "@/components/MainPage/Commonquestions/Commonquestions";
 export default function Home() {
   return (
-    <main className="px-4">
+    <main className="px-20">
       <Hero />
       <WhyAngaz />
       <Works />

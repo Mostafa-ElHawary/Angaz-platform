@@ -1,200 +1,74 @@
 import React from "react";
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
+import Link from "next/link";
 import Image from "next/image";
-import MasterCard from "@/public/svgImg/MasterCard.svg";
-import Visa from "@/public/svgImg/visa.svg";
-import Paypal from "@/public/svgImg/paypal.svg";
-import Fawry from "@/public/svgImg/fawry.webp";
-import Vodafone from "@/public/svgImg/vodafone.svg";
-import EgyptianPost from "@/public/svgImg/egyptian-post.webp";
+// import MasterCard from "@/public/svgImg/MasterCard.svg";
+// import Visa from "@/public/svgImg/visa.svg";
+// import Paypal from "@/public/svgImg/paypal.svg";
+// import Fawry from "@/public/svgImg/fawry.webp";
+// import Vodafone from "@/public/svgImg/vodafone.svg";
+// import EgyptianPost from "@/public/svgImg/egyptian-post.webp";
+import { menuItems, paymentMethods, withdrawalMethods } from "@/lib/data";
 
 export default function Footer() {
   return (
-    <footer>
-      <div className="bg-gray-50 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20">
-        <div className="p-5 ">
-          <div className="col-12 col-sm-6 col-md-3">
-            <p className="text-gray-800 font-bold text-2xl pb-4">
-              Payment Methods{" "}
-            </p>
+    <footer className="px-20">
+      <div className="bg-gray-50 h-1/2 w-full grid grid-cols-2 gap-4 justify-around items-start py-20">
+        {menuItems.map((menu, index) => (
+          <div
+            key={index}
+            className={`col-span-2 md:col-span-1 `}
+          >
+            <div className="mb-8 grid grid-flow-row">
+              <h2 className="text-gray-800 font-bold text-2xl pb-4 w-fit">
+                {menu.title}
+              </h2>
 
+              {menu.items.map((item, itemIndex) => (
+                <Link
+                  href={item.url}
+                  key={itemIndex}
+                  className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer w-fit"
+                >
+                  {item.topic}
+                </Link>
+              ))}
+            </div>
+
+            {menu.title === "Support" && (
+              <div className="flex items-center space-x-6">
+                <FaInstagram className="text-2xl hover:text-yellow-500" />
+                <FaTwitter className="text-2xl hover:text-blue-500" />
+                <FaLinkedin className="text-2xl hover:text-blue-500" />
+                <FaYoutube className="text-2xl hover:text-red-500" />
+              </div>
+            )}
+          </div>
+        ))}
+
+        <div className="col-span-2 md:col-span-1">
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold mb-4">Payment Methods</h2>
             <div className="grid grid-cols-5  justify-center items-center">
-              <Image
-                src={MasterCard}
-                alt="mastercard"
-                width="70"
-                height="70"
-                quality="95"
-                priority={true}
-                title=""
-                data-original-title="Mastercard"
-              ></Image>
-              <Image
-                src={Visa}
-                alt="Visa"
-                width="70"
-                height="70"
-                quality="95"
-                priority={true}
-                title=""
-                data-original-title="Visa"
-              ></Image>
-
-              <Image
-                src={Paypal}
-                alt="Paypal"
-                width="40"
-                height="40"
-                quality="95"
-                priority={true}
-                title=""
-                data-original-title="Paypal"
-              ></Image>
-
-              <Image
-                src={Fawry}
-                alt="Fawry"
-                width="40"
-                height="40"
-                quality="95"
-                priority={true}
-                title=""
-                data-original-title="Fawry"
-              ></Image>
-
-              <Image
-                src={Vodafone}
-                alt="Vodafone"
-                width="40"
-                height="40"
-                quality="95"
-                priority={true}
-                title=""
-                data-original-title="Vodafone"
-              ></Image>
+              {paymentMethods.map((method, methodIndex) => (
+                <Image key={methodIndex} {...method} />
+              ))}
             </div>
           </div>
 
-          <div className="col-12 col-sm-6 col-md-3">
-            <p className="text-gray-800 font-bold text-2xl pb-4">
-            Withdrawals Methods{" "}
-            </p>
-
-            <div className="grid grid-cols-5  justify-center items-center">
- 
-              <Image
-                src={EgyptianPost}
-                alt="EgyptianPost"
-                width="40"
-                height="40"
-                quality="95"
-                priority={true}
-                title=""
-                data-original-title="EgyptianPost"
-              ></Image>
-
-              <Image
-                src={Fawry}
-                alt="Fawry"
-                width="40"
-                height="40"
-                quality="95"
-                priority={true}
-                title=""
-                data-original-title="Fawry"
-              ></Image>
-
-              <Image
-                src={Vodafone}
-                alt="Vodafone"
-                width="40"
-                height="40"
-                quality="95"
-                priority={true}
-                title=""
-                data-original-title="Vodafone"
-              ></Image>
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold mb-4">Payment Methods</h2>
+            <div className="grid grid-cols-5  justify-center items-center py-5">
+            {withdrawalMethods.map((method, methodIndex) => (
+                <Image key={methodIndex} {...method} />
+              ))}
             </div>
           </div>
-        </div>
-        <div className="p-5">
-          <ul>
-            <p className="text-gray-800 font-bold text-2xl pb-4">Projects
-</p>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-            Programming
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-            Design projects
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-            Marketing projects
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-            Project support
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-            Training projects
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-            Categories
-            </li>
-          </ul>
-        </div>
-        <div className="p-5">
-          <ul>
-            <p className="text-gray-800 font-bold text-2xl pb-4">Company</p>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              About Angaz
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Team Of Service
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Pricing
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Careers
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Press & Media
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Points System
-            </li>
-          </ul>
-        </div>
-        <div className="p-5">
-          <ul>
-            <p className="text-gray-800 font-bold text-2xl pb-4">Support</p>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Contact Us
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Support Portals
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              List Of Charges
-            </li>
-          
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Help Center
-            </li>
-          </ul>
 
-          <ul>
-            <div className="flex gap-6 pb-5">
-              <FaInstagram className="text-2xl cursor-pointer hover:text-yellow-600" />
-              <FaTwitter className="text-2xl cursor-pointer hover:text-blue-600" />
-              <FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />
-              <FaYoutube className="text-2xl cursor-pointer hover:text-red-600" />
-            </div>
-          </ul>
+       
         </div>
       </div>
+
       <div className="flex flex-col justify-center items-center text-center  p-5 bg-gray-50">
         <h1 className=" text-gray-800 font-semibold">
           © 2023 All rights reserved | Designed & Built by{" "}

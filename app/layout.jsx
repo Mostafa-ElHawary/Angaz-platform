@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="!scroll-smooth relative  ">
       <body
-        className={`${inter.className} pl-5 pr-5   bg-gray-50 text-gray-950  relative  dark:bg-[#0a192f] dark:text-gray-50 dark:text-opacity-90 `}
+        className={`${inter.className} pl-5 pr-5   bg-gray-50 text-gray-950  relative   `}
       >
         <Header />
         {children}

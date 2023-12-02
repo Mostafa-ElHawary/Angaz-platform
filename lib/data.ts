@@ -3,7 +3,12 @@ import { AiOutlineSetting } from "react-icons/ai";
 import { AiOutlinePicture } from "react-icons/ai";
 import { AiOutlineTrophy } from "react-icons/ai";
 import { AiOutlineTeam } from "react-icons/ai";
-
+import MasterCard from "@/public/svgImg/MasterCard.svg";
+import Visa from "@/public/svgImg/visa.svg";
+import Paypal from "@/public/svgImg/paypal.svg";
+import Fawry from "@/public/svgImg/fawry.webp";
+import Vodafone from "@/public/svgImg/vodafone.svg";
+import EgyptianPost from "@/public/svgImg/egyptian-post.webp";
 import { AiOutlineCode } from "react-icons/ai";
 
 export const links = [
@@ -170,7 +175,6 @@ export const questions = [
 ] as const;
 
 export const Departments = [
-  
   {
     id: 1,
     topic: "Services",
@@ -307,40 +311,87 @@ export const Departments = [
       },
     ],
   },
-
 ] as const;
 
 export const Testimonials = [
   {
     id: 1,
-    name: 'Fake User',
-    position: 'Title position',
+    name: "Fake User",
+    position: "Title position",
     comment:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?',
-    image: 'https://avatars.hsoubcdn.com/default?s=128',
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?",
+    image: "https://avatars.hsoubcdn.com/default?s=128",
   },
   {
     id: 2,
-    name: 'Fake User',
-    position: 'Title position',
+    name: "Fake User",
+    position: "Title position",
     comment:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?',
-      image: 'https://avatars.hsoubcdn.com/default?s=128',
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?",
+    image: "https://avatars.hsoubcdn.com/default?s=128",
   },
   {
     id: 3,
-    name: 'Fake User',
-    position: 'Title position',
+    name: "Fake User",
+    position: "Title position",
     comment:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?',
-      image: 'https://avatars.hsoubcdn.com/default?s=128',
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?",
+    image: "https://avatars.hsoubcdn.com/default?s=128",
   },
   {
     id: 4,
-    name: 'Fake User',
-    position: 'Title position',
+    name: "Fake User",
+    position: "Title position",
     comment:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?',
-      image: 'https://avatars.hsoubcdn.com/default?s=128',
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?",
+    image: "https://avatars.hsoubcdn.com/default?s=128",
   },
-]as const ;
+] as const;
+
+export const menuItems = [
+  {
+    title: "Projects",
+    items: [
+      { topic: "Programming", url: "" },
+      { topic: "Design projects", url: "" },
+      { topic: "Marketing projects", url: "" },
+      { topic: "Project support", url: "" },
+      { topic: "Training projects", url: "" },
+      { topic: "Categories", url: "" },
+    ],
+  },
+  {
+    title: "Company",
+    items: [
+      { topic: "About Angaz", url: "" },
+      { topic: "Team Of Service", url: "" },
+      { topic: "Pricing", url: "" },
+      { topic: "Careers", url: "" },
+      { topic: "Press & Media", url: "" },
+      { topic: "Points System", url: "" },
+    ],
+  },
+  {
+    title: "Support",
+    items: [
+      { topic: "Contact Us", url: "" },
+      { topic: "Support Portals", url: "" },
+      { topic: "List Of Charges", url: "" },
+      { topic: "Help Center", url: "" },
+    ],
+  },
+] as const;
+
+export const paymentMethods = [
+  { src: MasterCard, alt: "Mastercard", width: 70, height: 70 },
+  { src: Visa, alt: "Visa", width: 70, height: 70 },
+  { src: Paypal, alt: "Paypal", width: 40, height: 40 },
+  { src: Fawry, alt: "Fawry", width: 40, height: 40 },
+  { src: Vodafone, alt: "Vodafone", width: 40, height: 40 },
+]as const;;
+
+export const withdrawalMethods = [
+  { src: EgyptianPost, alt: "EgyptianPost", width: 40, height: 40 },
+  { src: Fawry, alt: "Fawry", width: 40, height: 40 },
+  { src: Vodafone, alt: "Vodafone", width: 40, height: 40 },
+]as const;;
