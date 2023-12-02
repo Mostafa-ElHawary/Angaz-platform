@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header className={` z-[999] relative px-20`}>
       <motion.div
-        className=" "
+     
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>

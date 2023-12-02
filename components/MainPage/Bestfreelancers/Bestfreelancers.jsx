@@ -14,7 +14,7 @@ export default function Bestfreelancers() {
         </button>
       </div>
       {/* As real data will be fetched from an API, for now, it's fake */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-0 lg:grid-cols-3 gap-8 mt-8">
         <UserCard />
         <UserCard />
         <UserCard />

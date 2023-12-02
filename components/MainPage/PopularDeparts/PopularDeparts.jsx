@@ -27,7 +27,7 @@ export default function PopularDeparts() {
             </button>
           ))}
         </div>
-        <section className=" info grid grid-cols-2 md:grid-cols-4 gap-4 text-center justify-center items-center">
+        <section className=" info grid grid-cols-2 md:grid-cols-4 gap-8 text-center justify-center items-center">
           {duties.map((info) => (
             <DepartsData key={info.id} {...info} />
           ))}
