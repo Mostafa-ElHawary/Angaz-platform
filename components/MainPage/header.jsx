@@ -1,5 +1,5 @@
 "use client";
-import React, { useContext, useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
 import Link from "next/link";
@@ -10,7 +10,6 @@ export default function Header() {
   return (
     <header className={` z-[999] relative px-20`}>
       <motion.div
-     
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
@@ -54,7 +53,12 @@ export default function Header() {
               Login
             </button>
             <button className="signup sm:w-full text-center ml-2 bg-gray-300 text-gray-700 px-4 py-2 rounded-md hover:bg-gray-400 focus:outline-none focus:border-gray-400 focus:ring focus:ring-gray-200">
-              SignUp
+              <Link
+                href={`/loginSignup`}
+                passHref
+              >
+                SignUp
+              </Link>
             </button>
           </div>
           <div className="flex items-center flex-col ">

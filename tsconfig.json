@@ -24,6 +24,6 @@
       "@/components/*": ["./components/*"],
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/footer.jsx", "components/header.jsx", "app/layout.jsx", "app/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/mainpage/footer.jsx", "components/mainpage/header.jsx", "app/layout.jsx", "app/page.jsx"],
   "exclude": ["node_modules"]
 }
