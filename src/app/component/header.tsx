@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { links } from "@/lib/data";
+import { links } from "@/app/lib/data";
 import Link from "next/link";
 // import clsx from "clsx";
 import { AiOutlineGlobal } from "react-icons/ai";
@@ -53,10 +53,7 @@ export default function Header() {
               Login
             </button>
             <button className="signup sm:w-full text-center ml-2 bg-gray-300 text-gray-700 px-4 py-2 rounded-md hover:bg-gray-400 focus:outline-none focus:border-gray-400 focus:ring focus:ring-gray-200">
-              <Link
-                href={`/loginSignup`}
-                passHref
-              >
+              <Link href={`/component/mainpage/login`} passHref>
                 SignUp
               </Link>
             </button>
@@ -68,12 +65,10 @@ export default function Header() {
               id="langs"
               className=" px-2 py-1 rounded-md focus:outline-none focus:border-blue-500"
             >
-              <option value="English" className="" name="English">
+              <option value="English" className="">
                 English
               </option>
-              <option value="Arabic" name="Arabic">
-                Arabic
-              </option>
+              <option value="Arabic">Arabic</option>
             </select>
           </div>
         </div>

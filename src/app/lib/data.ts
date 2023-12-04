@@ -3,12 +3,12 @@ import { AiOutlineSetting } from "react-icons/ai";
 import { AiOutlinePicture } from "react-icons/ai";
 import { AiOutlineTrophy } from "react-icons/ai";
 import { AiOutlineTeam } from "react-icons/ai";
-import MasterCard from "@/public/svgImg/MasterCard.svg";
-import Visa from "@/public/svgImg/visa.svg";
-import Paypal from "@/public/svgImg/paypal.svg";
-import Fawry from "@/public/svgImg/fawry.webp";
-import Vodafone from "@/public/svgImg/vodafone.svg";
-import EgyptianPost from "@/public/svgImg/egyptian-post.webp";
+import MasterCard from "@/app/assets/svgImg/MasterCard.svg";
+import Visa from "@/app/assets/svgImg/visa.svg";
+import Paypal from "@/app/assets/svgImg/paypal.svg";
+import Fawry from "@/app/assets/svgImg/fawry.webp";
+import Vodafone from "@/app/assets/svgImg/vodafone.svg";
+import EgyptianPost from "@/app/assets/svgImg/egyptian-post.webp";
 import { AiOutlineCode } from "react-icons/ai";
 
 export const links = [

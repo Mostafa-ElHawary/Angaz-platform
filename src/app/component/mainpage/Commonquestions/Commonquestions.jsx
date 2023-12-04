@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { questions } from "@/lib/data";
+import { questions } from "@/app/lib/data";
 import SingleQuestion from "./SingleQuestion";
 
 export default function Commonquestions() {

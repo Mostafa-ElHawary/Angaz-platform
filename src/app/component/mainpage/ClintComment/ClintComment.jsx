@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Testimonials } from "@/lib/data";
+import { Testimonials } from "@/app/lib/data";
 export default function ClintComment() {
   return (
     <section className="py-16 bg-gray-100" id="testimonials">

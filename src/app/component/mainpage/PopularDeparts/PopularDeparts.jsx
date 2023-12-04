@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Departments } from "@/lib/data";
+import { Departments } from "@/app/lib/data";
 import DepartsData from "./DepartsData";
 
 export default function PopularDeparts() {

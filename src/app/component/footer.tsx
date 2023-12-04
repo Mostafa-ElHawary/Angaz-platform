@@ -2,23 +2,15 @@ import React from "react";
 import { FaInstagram, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
-// import MasterCard from "@/public/svgImg/MasterCard.svg";
-// import Visa from "@/public/svgImg/visa.svg";
-// import Paypal from "@/public/svgImg/paypal.svg";
-// import Fawry from "@/public/svgImg/fawry.webp";
-// import Vodafone from "@/public/svgImg/vodafone.svg";
-// import EgyptianPost from "@/public/svgImg/egyptian-post.webp";
-import { menuItems, paymentMethods, withdrawalMethods } from "@/lib/data";
+
+import { menuItems, paymentMethods, withdrawalMethods } from "@/app/lib/data";
 
 export default function Footer() {
   return (
     <footer className="px-20">
       <div className="bg-gray-50 h-1/2 w-full grid grid-cols-2 gap-4 justify-around items-start py-20">
         {menuItems.map((menu, index) => (
-          <div
-            key={index}
-            className={`col-span-2 md:col-span-1 `}
-          >
+          <div key={index} className={`col-span-2 md:col-span-1 `}>
             <div className="mb-8 grid grid-flow-row">
               <h2 className="text-gray-800 font-bold text-2xl pb-4 w-fit">
                 {menu.title}
@@ -59,13 +51,11 @@ export default function Footer() {
           <div className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Payment Methods</h2>
             <div className="grid grid-cols-5  justify-center items-center py-5">
-            {withdrawalMethods.map((method, methodIndex) => (
+              {withdrawalMethods.map((method, methodIndex) => (
                 <Image key={methodIndex} {...method} />
               ))}
             </div>
           </div>
-
-       
         </div>
       </div>
 
