@@ -1,8 +1,4 @@
 import React from "react";
-import { AiOutlineSetting } from "react-icons/ai";
-import { AiOutlinePicture } from "react-icons/ai";
-import { AiOutlineTrophy } from "react-icons/ai";
-import { AiOutlineTeam } from "react-icons/ai";
 import MasterCard from "@/app/assets/svgImg/MasterCard.svg";
 import Visa from "@/app/assets/svgImg/visa.svg";
 import Paypal from "@/app/assets/svgImg/paypal.svg";
@@ -13,27 +9,27 @@ import { AiOutlineCode } from "react-icons/ai";
 
 export const links = [
   {
-    name: "Services",
+    id: 1,
+    name: "الخدمات",
     hash: "#Services",
-    icon: React.createElement(AiOutlineSetting),
   },
   {
-    name: "Independents",
+    id: 2,
+    name: "المستقلون",
     hash: "#Independents",
-    icon: React.createElement(AiOutlineTeam),
   },
 
   {
-    name: "Projects",
+    id: 3,
+    name: "مشاريع",
     hash: "#projects",
-    icon: React.createElement(AiOutlinePicture),
   },
   {
-    name: "Challenges",
+    id: 4,
+    name: "تحديات",
     hash: "#Challenges",
-    icon: React.createElement(AiOutlineTrophy),
   },
-] as const;
+];
 
 export const questions = [
   {
@@ -388,10 +384,10 @@ export const paymentMethods = [
   { src: Paypal, alt: "Paypal", width: 40, height: 40 },
   { src: Fawry, alt: "Fawry", width: 40, height: 40 },
   { src: Vodafone, alt: "Vodafone", width: 40, height: 40 },
-]as const;;
+] as const;
 
 export const withdrawalMethods = [
   { src: EgyptianPost, alt: "EgyptianPost", width: 40, height: 40 },
   { src: Fawry, alt: "Fawry", width: 40, height: 40 },
   { src: Vodafone, alt: "Vodafone", width: 40, height: 40 },
-]as const;;
+] as const;

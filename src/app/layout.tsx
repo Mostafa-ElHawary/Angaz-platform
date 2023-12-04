@@ -23,11 +23,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth relative  ">
       <body
-        className={`${inter.className} pl-5 pr-5   bg-gray-50 text-gray-950  relative   `}
+        className={`${inter.className} bg-gray-50 text-gray-950  relative   `}
       >
         <Header />
-        {children}
-        <Footer />
+        <div className="md:container md:mx-auto">
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
