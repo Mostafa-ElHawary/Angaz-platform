@@ -1,4 +1,5 @@
 import React from "react";
+// Footer images
 import MasterCard from "@/app/assets/svgImg/MasterCard.svg";
 import Visa from "@/app/assets/svgImg/visa.svg";
 import Paypal from "@/app/assets/svgImg/paypal.svg";
@@ -6,6 +7,28 @@ import Fawry from "@/app/assets/svgImg/fawry.webp";
 import Vodafone from "@/app/assets/svgImg/vodafone.svg";
 import EgyptianPost from "@/app/assets/svgImg/egyptian-post.webp";
 import { AiOutlineCode } from "react-icons/ai";
+
+// Departs images
+import GraphicDesign from "@/app/assets/svgImg/undraw_designer_girl_re_h54c.svg";
+import Programmer from "@/app/assets/svgImg/undraw_pair_programming_re_or4x.svg";
+import Business from "@/app/assets/svgImg/undraw_business_analytics_re_tfh3.svg";
+import Written from "@/app/assets/svgImg/undraw_typewriter_re_u9i2.svg";
+import Marketing from "@/app/assets/svgImg/undraw_social_dashboard_re_ocbd.svg";
+import Audios from "@/app/assets/svgImg/undraw_audio_player_re_cl20.svg";
+import Video from "@/app/assets/svgImg/undraw_online_media_re_r9qv.svg";
+import animation from "@/app/assets/svgImg/undraw_animating_re_5gvn.svg";
+import Management from "@/app/assets/svgImg/undraw_software_engineer_re_tnjc.svg";
+import Development from "@/app/assets/svgImg/undraw_firmware_re_fgdy.svg";
+import Sales from "@/app/assets/svgImg/undraw_shopping_re_hdd9.svg";
+import Design from "@/app/assets/svgImg/undraw_designer_life_re_6ywf.svg";
+import ContentCreation from "@/app/assets/svgImg/undraw_placeholders_re_pvr4.svg";
+import Education from "@/app/assets/svgImg/undraw_certification_re_ifll.svg";
+import Other from "@/app/assets/svgImg/undraw_undraw_website_o7n3_bucy.svg";
+import chaling1 from "@/app/assets/svgImg/undraw_undraw_selectoption_y9cm_mx7w.svg";
+import chaling2 from "@/app/assets/svgImg/undraw_selected_box_09k4.svg";
+import femaleAvatar from "@/app/assets/svgImg/undraw_female_avatar_efig.svg";
+
+
 
 export const links = [
   {
@@ -178,49 +201,49 @@ export const Departments = [
       {
         id: 1,
         title: "Website programming",
-        icon: React.createElement(AiOutlineCode),
+        icon: Programmer,
         info: "",
       },
       {
         id: 2,
         title: "Graphic Design",
-        icon: React.createElement(AiOutlineCode),
+        icon: GraphicDesign,
         info: "",
       },
       {
         id: 3,
         title: "Written and translated",
-        icon: React.createElement(AiOutlineCode),
+        icon: Written,
         info: "",
       },
       {
         id: 4,
         title: "Business",
-        icon: React.createElement(AiOutlineCode),
+        icon: Business,
         info: "",
       },
       {
         id: 5,
         title: "Audios",
-        icon: React.createElement(AiOutlineCode),
+        icon: Audios,
         info: "",
       },
       {
         id: 6,
         title: "Digital Marketing",
-        icon: React.createElement(AiOutlineCode),
+        icon: Marketing,
         info: "",
       },
       {
         id: 7,
         title: "Video editing",
-        icon: React.createElement(AiOutlineCode),
+        icon: Video,
         info: "",
       },
       {
         id: 8,
         title: "animation",
-        icon: React.createElement(AiOutlineCode),
+        icon: animation,
         info: "",
       },
     ],
@@ -233,43 +256,43 @@ export const Departments = [
       {
         id: 1,
         title: "Business, Consulting And Management Services",
-        icon: React.createElement(AiOutlineCode),
+        icon: Management,
         info: "",
       },
       {
         id: 2,
         title: "Programming, Web And Application Development",
-        icon: React.createElement(AiOutlineCode),
+        icon: Development,
         info: "",
       },
       {
         id: 3,
         title: "Design, Video And Audio",
-        icon: React.createElement(AiOutlineCode),
+        icon: Design,
         info: "",
       },
       {
         id: 4,
         title: "Marketing And Sales",
-        icon: React.createElement(AiOutlineCode),
+        icon: Sales,
         info: "",
       },
       {
         id: 5,
         title: "Writing, Content Creation, Translation And Languages",
-        icon: React.createElement(AiOutlineCode),
+        icon: ContentCreation,
         info: "",
       },
       {
         id: 6,
         title: "Training, Education And Remote Assistance",
-        icon: React.createElement(AiOutlineCode),
+        icon: Education,
         info: "",
       },
       {
         id: 6,
         title: "Other Things",
-        icon: React.createElement(AiOutlineCode),
+        icon: Other,
         info: "",
       },
     ],
@@ -282,27 +305,27 @@ export const Departments = [
       {
         id: 1,
         title: "One",
-        icon: React.createElement(AiOutlineCode),
+        icon: chaling1,
         info: "",
       },
 
       {
         id: 2,
         title: "two",
-        icon: React.createElement(AiOutlineCode),
+        icon: chaling2,
         info: "",
       },
       {
         id: 3,
         title: "three",
-        icon: React.createElement(AiOutlineCode),
+        icon: chaling1,
         info: "",
       },
 
       {
         id: 4,
         title: "four",
-        icon: React.createElement(AiOutlineCode),
+        icon: chaling2,
         info: "",
       },
     ],
@@ -316,7 +339,7 @@ export const Testimonials = [
     position: "Title position",
     comment:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?",
-    image: "https://avatars.hsoubcdn.com/default?s=128",
+    image: femaleAvatar,
   },
   {
     id: 2,
@@ -324,7 +347,7 @@ export const Testimonials = [
     position: "Title position",
     comment:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?",
-    image: "https://avatars.hsoubcdn.com/default?s=128",
+    image: femaleAvatar,
   },
   {
     id: 3,
@@ -332,7 +355,7 @@ export const Testimonials = [
     position: "Title position",
     comment:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?",
-    image: "https://avatars.hsoubcdn.com/default?s=128",
+    image: femaleAvatar,
   },
   {
     id: 4,
@@ -340,7 +363,7 @@ export const Testimonials = [
     position: "Title position",
     comment:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum exercitationem illum fuga quos ex aliquam rerum aliquid doloribus? Eveniet, eligendi itaque. Mollitia nobis quidem commodi ullam nesciunt sit consequatur?",
-    image: "https://avatars.hsoubcdn.com/default?s=128",
+    image: femaleAvatar,
   },
 ] as const;
 

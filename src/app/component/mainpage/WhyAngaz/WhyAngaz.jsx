@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import building from "@/app/assets/svgImg/undraw_start_building_re_xani.svg";
+import christmas from "@/app/assets/svgImg/undraw_decorate_christmas_tree_rmj0.svg";
+
 export default function WhyAngaz() {
   return (
     <section className="py-20">
@@ -27,11 +30,11 @@ export default function WhyAngaz() {
             </ul>
           </div>
           <div className="flex justify-center items-center">
-            <img src={``} alt="Business Owner" className="max-h-96" />
+            <Image src={christmas} alt="Business Owner" className="max-h-96" width={600} height={250}  />
           </div>
 
           <div className="flex justify-center items-center">
-            <img src={``} alt="The Independent" className="w-full" />
+            <Image src={building} alt="The Independent" className="w-full" width={600} height={250}  />
           </div>
           <div className="flex flex-col justify-center items-center mb-8 md:mb-0">
             <p className="text-2xl font-semibold mb-4">The Independent</p>

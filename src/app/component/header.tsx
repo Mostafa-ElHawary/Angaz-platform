@@ -23,7 +23,7 @@ export default function Header() {
       className="z-[999] md:sticky w-full m-auto lg:top-4 xl:w-[90%]"
       dir="rtl"
     >
-      <div className="flex md:hidden justify-between items-center bg-white bg-opacity-50 shadow-xl rounded-md border border-white border-opacity-25 pl-3 pr-3 py-[2px] w-full m-auto">
+      <div className="flex md:hidden justify-between items-center bg-white dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75 bg-opacity-50 shadow-xl rounded-md border border-white border-opacity-25 pl-3 pr-3 py-[2px] w-full m-auto">
         <div className="flex items-center gap-5 text-2xl">
           <button className="text-gray-600 hover:text-[#1967D3]">
             <IoCartOutline />
@@ -129,7 +129,7 @@ export default function Header() {
         <div
           className={
             nav
-              ? "fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? "fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] dark:bg-gray-950 p-10 ease-in duration-500"
               : "fixed right-[-100%] top-0 p-10 ease-in duration-500 h-screen"
           }
         >
@@ -149,7 +149,7 @@ export default function Header() {
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-lg shadow-gray-400 dark:shadow-none p-3 cursor-pointer"
               >
                 <AiOutlineClose />
               </div>

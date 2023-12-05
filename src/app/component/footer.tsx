@@ -8,7 +8,7 @@ import { menuItems, paymentMethods, withdrawalMethods } from "@/app/lib/data";
 export default function Footer() {
   return (
     <footer className="px-20">
-      <div className="bg-gray-50 h-1/2 w-full grid grid-cols-2 gap-4 justify-around items-start py-20">
+      <div className=" h-1/2 w-full grid grid-cols-2 gap-4 justify-around items-start py-20">
         {menuItems.map((menu, index) => (
           <div key={index} className={`col-span-2 md:col-span-1 `}>
             <div className="mb-8 grid grid-flow-row">

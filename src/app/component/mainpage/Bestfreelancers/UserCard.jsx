@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import maleAvatar from "@/app/assets/svgImg/undraw_male_avatar_g98d.svg"
 export default function UserCard() {
     return (
-        <main className="bg-white rounded-md shadow-md p-6 m-4">
+        <main className="rounded-md shadow-md p-6 m-4">
           <div className="flex items-center mb-4">
             <div className="mr-4">
               <Image
-                src={`https://avatars.hsoubcdn.com/default?s=128`}
+                src={maleAvatar}
                 alt=""
                 width={40}
                 height={40}
