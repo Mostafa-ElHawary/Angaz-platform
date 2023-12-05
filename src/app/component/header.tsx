@@ -38,13 +38,13 @@ export default function Header() {
 
         <div className="flex justify-center items-center text-[18px]">
           <Link
-            href="/login"
+            href="/component/mainpage/login"
             className="text-center  bg-gray-400 text-white py-[2px] px-7"
           >
             دخول
           </Link>
           <Link
-            href="/component/mainpage/login"
+            href="/component/mainpage/Signup"
             className="text-center bg-[#1967D3] text-white py-[2px] px-3 hover:bg-gray-400 focus:outline-none focus:border-gray-400 focus:ring focus:ring-gray-200"
           >
             حساب جديد
@@ -97,13 +97,13 @@ export default function Header() {
           {/* Login and Signup */}
           <div className="flex justify-center items-center sm:w-[160px] text-[17px]">
             <Link
-              href="/login"
+               href="/component/mainpage/login"
               className="text-center text-[#1967D3] hover:bg-gray-400 hover:text-white py-2 px-3"
             >
               دخول
             </Link>
             <Link
-              href="/component/mainpage/loginn"
+              href="/component/mainpage/Signup"
               className="w-full text-center bg-[#1967D3] text-white px-4 py-2 hover:bg-gray-400 focus:outline-none focus:border-gray-400 focus:ring focus:ring-gray-200"
             >
               حساب جديد
@@ -182,13 +182,13 @@ export default function Header() {
           </div>
           <div className="flex justify-center items-center text-[18px]">
             <Link
-              href="/login"
+                href="/component/mainpage/login"
               className="w-full text-center bg-gray-400 text-white py-2"
             >
               دخول
             </Link>
             <Link
-              href="/signup"
+               href="/component/mainpage/Signup"
               className="w-full text-center bg-[#1967D3] text-white px-4 py-2 hover:bg-gray-400 focus:outline-none focus:border-gray-400 focus:ring focus:ring-gray-200"
             >
               حساب جديد
