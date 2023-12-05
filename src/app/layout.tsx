@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "./component/header";
 import Footer from "./component/footer";
+import ThemeContextProvider from "@/app/context/theme-context";
+// import ThemeSwitch from "@/app/context/theme-switch";
+
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -23,13 +26,16 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth relative  ">
       <body
-        className={`${inter.className} bg-gray-50 text-gray-950  relative   `}
+        className={`${inter.className} bg-gray-50 text-gray-950  relative  dark:bg-gray-900 dark:text-gray-50`}
       >
-        <Header />
-        <div className="md:container md:mx-auto">
-          {children}
-          <Footer />
-        </div>
+        <ThemeContextProvider>
+          <div className="md:container md:mx-auto  ">
+            <Header />
+            {children}
+            <Footer />
+          </div>
+          {/* <ThemeSwitch /> */}
+        </ThemeContextProvider>
       </body>
     </html>
   );
