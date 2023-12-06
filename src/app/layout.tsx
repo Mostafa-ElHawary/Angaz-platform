@@ -4,6 +4,7 @@ import Header from "./component/header";
 import Footer from "./component/footer";
 import ThemeContextProvider from "@/app/context/theme-context";
 // import ThemeSwitch from "@/app/context/theme-switch";
+// testing a new branch 
 
 import "./globals.css";
 
