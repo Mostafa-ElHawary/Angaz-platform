@@ -6,6 +6,7 @@ import ThemeContextProvider from "@/app/context/theme-context";
 // import ThemeSwitch from "@/app/context/theme-switch";
 import "react-phone-input-2/lib/style.css";
 
+
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
